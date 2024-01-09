@@ -3,22 +3,26 @@
     {
       "title": "Web Development",
       "content": "Looking for a mobile-friendly website or blog for your company? For a very fair price and quickly, we are prepared to create a responsive and appealing website for your company. ",
-      "image": "/assets/images/web_dev.png"
+      "image": "/assets/images/web_dev.png",
+      "id": "web_development"
     },
     {
       "title": "Graphic Design",
       "content": "Looking for a mobile-friendly website or blog for your company? For a very fair price and quickly, we are prepared to create a responsive and appealing website for your company.",
-      "image": "/assets/images/graphic_design.png"
+      "image": "/assets/images/graphic_design.png",
+      "id": "graphic_design"
     },
     {
       "title": "Social Media Marketing",
       "content": "You don't have enough time to manage your social media accounts, do you? Any of your business profiles can be professionally maintained by us. Contact us and review our prior work to get a sense of what we can do.",
-      "image": "/assets/images/social_media.png"
+      "image": "/assets/images/social_media.png",
+      "id": "social_media_marketing"
     },
     {
       "title": "Web Development",
       "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.",
-      "image": "/assets/images/web_dev.png"
+      "image": "/assets/images/web_dev.png",
+      "id": "web_development_2"
     }
   ]
 }

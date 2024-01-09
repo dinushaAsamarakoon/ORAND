@@ -41,7 +41,7 @@ const Header: FC = () => {
       }`}
     >
       <nav className="flex items-center justify-between flex-wrap bg-[#043873] p-6 shadow-2xl shadow-black">
-        <div className="ml-60 flex flex-row items-center flex-shrink-0 text-white mr-6">
+        <div className="ml-36 flex flex-row items-center flex-shrink-0 text-white mr-6">
           <Image
             src="/assets/icons/logo.png"
             height={70}
@@ -55,28 +55,35 @@ const Header: FC = () => {
         <div className="w-full block flex-wrap lg:flex lg:items-center lg:w-auto justify-between">
           <div className="text-md lg:flex-wrap justify-between mr-52">
             <Link
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:font-bold mr-10"
-              href="/"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white font-bold mr-10 underline-effect-unique relative font-inter"
+              href="#home"
             >
-              Services
+              <span>Home</span>
             </Link>
             <Link
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:font-bold mr-10"
-              href="/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white font-bold mr-10 underline-effect-unique relative font-inter"
+              href="#services"
             >
-              About Us
+              <span>Services</span>
+            </Link>
+
+            <Link
+              className="block mt-4 lg:inline-block lg:mt-0 text-white font-bold mr-10 underline-effect-unique relative  font-inter"
+              href="#about"
+            >
+              <span>About Us</span>
             </Link>
             <Link
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:font-bold mr-10"
-              href="/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white font-bold mr-10 underline-effect-unique relative font-inter"
+              href="#contact"
             >
-              Contact Us
+              <span>Contact Us</span>
             </Link>
             <Link
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:font-bold mr-10"
-              href="/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white font-bold mr-10 underline-effect-unique relative font-inter"
+              href="#faq"
             >
-              FAQ
+              <span>FAQ</span>
             </Link>
           </div>
 

@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="w-full mt-36">
-      <div className="flex justify-center my-36">
+    <div className="w-full pt-[70px]" id="contact">
+      <div className="flex justify-center my-16">
         <h1 className="text-black font-inter font-bold text-5xl">Talk To Us</h1>
       </div>
       <div>

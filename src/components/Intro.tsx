@@ -2,7 +2,10 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0">
+    <div
+      className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0"
+      id="home"
+    >
       <div
         className="flex w-full h-full justify-center"
         style={{
@@ -18,7 +21,7 @@ const Intro = () => {
               your website, Create your design and SEO.
             </p>
             <div className="flex flex-wrap justify-start my-3">
-              <button className="flex flex-row bg-[#4F9CF9] px-8 py-2 rounded-lg">
+              <button className="flex flex-row bg-[#4F9CF9] px-8 py-2 rounded-lg items-center">
                 <span className="mr-2">Contact Us</span>
                 <img src="/assets/icons/right_arrow_white.svg" />
               </button>
