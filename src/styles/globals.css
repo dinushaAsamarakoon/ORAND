@@ -34,3 +34,20 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.underline-effect-unique span::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: -10px;
+  left: 50%;
+  border-radius: 5px;
+  background-color: #ffffff; /* Change this to your desired color */
+  transition: all 0.5s ease-in-out;
+}
+
+.underline-effect-unique:hover span::before {
+  width: 100%;
+  left: 0;
+}
