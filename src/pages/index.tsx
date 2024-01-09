@@ -14,6 +14,7 @@ type ServiceCardDetails = {
   title: string;
   content: string;
   image: string;
+  id: string;
 };
 type HomeProps = {
   serviceCardDetails: ServiceCardDetails[];
@@ -22,17 +23,20 @@ export default function Home({ serviceCardDetails }: HomeProps) {
   return (
     <Layout>
       <Intro />
-      {serviceCardDetails.map((card, index) => (
-        <ServiceCard
-          key={index}
-          title={card.title}
-          content={card.content}
-          image={card.image}
-          row={index % 2 === 0 ? "flex-row-reverse" : ""}
-        />
-      ))}
-
+      <div id="services" className="pt-[70px]">
+        {serviceCardDetails.map((card, index) => (
+          <ServiceCard
+            key={index}
+            id={card.id}
+            title={card.title}
+            content={card.content}
+            image={card.image}
+            row={index % 2 === 0 ? "flex-row-reverse" : ""}
+          />
+        ))}
+      </div>
       <AboutUs />
+
       <ContactUs />
     </Layout>
   );
