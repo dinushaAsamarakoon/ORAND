@@ -13,9 +13,11 @@ const Intro = () => {
           backgroundSize: "100% 100%",
         }}
       >
-        <div className="grid grid-cols-2">
-          <div className="flex flex-col justify-center mx-40 my-auto">
-            <h1 className="my-3 text-5xl">MAKE YOUR IMAGINATION REAL</h1>
+        <div className="grid sm:grid-cols-2">
+          <div className="flex flex-col justify-center items-center mx-auto sm:mx-40 my-auto">
+            <h1 className="flex flex-wrap my-3 text-5xl">
+              MAKE YOUR IMAGINATION REAL
+            </h1>
             <p className="my-3">
               Design based software which allows you or your company to make
               your website, Create your design and SEO.
