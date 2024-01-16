@@ -17,6 +17,8 @@ const config: Config = {
         "4xl": "3rem",
         "5xl": "4rem",
         "6xl": "4.5rem",
+        "7xl": "5rem",
+        "8xl": "5.5rem",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
