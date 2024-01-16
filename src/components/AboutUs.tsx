@@ -14,7 +14,7 @@ const AboutUs = () => {
       <div className="flex lg:grid lg:grid-cols-3 flex-wrap my-20 mx-10">
         <div
           id="who_are_we"
-          className="flex flex-col items-center justify-start px-10 py-[70px] lg:pb-5 rounded-lg border-solid border-2 border-[#FFE492] mx-6 mb-4 lg:mb-0"
+          className="flex flex-col items-center justify-start px-10 py-[70px] lg:pb-5 rounded-lg border-solid border-2 border-[#FFE492] lg:mx-6 mb-4 lg:mb-0"
         >
           <h1 className="text-black text-2xl font-bold font-inter my-3">
             Who are we?
@@ -37,7 +37,7 @@ const AboutUs = () => {
         </div>
         <div
           id="vision"
-          className="flex flex-col items-center bg-[#043873] justify-start px-10 pt-[70px] pb-5 rounded-lg"
+          className="flex flex-col items-center bg-[#043873] justify-start px-10 pt-[70px] pb-5 rounded-lg mb-4 lg:mb-0"
         >
           <h1 className="text-2xl font-bold font-inter my-3">Vision</h1>
           <p>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         </div>
         <div
           id="mission"
-          className="flex flex-col items-center justify-start px-10 pt-[70px] pb-5 rounded-lg border-solid border-2 border-[#FFE492] mx-6"
+          className="flex flex-col items-center justify-start px-10 pt-[70px] pb-5 rounded-lg border-solid border-2 border-[#FFE492] lg:mx-6"
         >
           <h1 className="text-black text-2xl font-bold font-inter my-3">
             Mission
