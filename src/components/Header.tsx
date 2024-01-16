@@ -115,7 +115,6 @@ const Menu = () => {
       menuIconRef.current?.contains(e.target as Node)
     ) {
       // inside click or menu icon click
-      console.log("handle click if");
       return;
     }
     // outside click
@@ -123,7 +122,6 @@ const Menu = () => {
   };
 
   useEffect(() => {
-    console.log("isopen", isOpen);
     // add when mounted
     document.addEventListener("mousedown", handleClick);
     // return function to be called when unmounted
