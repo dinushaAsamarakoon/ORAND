@@ -27,7 +27,7 @@ const ServiceCard: FC<cardData> = ({ title, content, image, row, id }) => {
             </p>
             <div className="flex flex-wrap">
               <button className="bg-[#4F9CF9] px-12 py-3 rounded-2xl flex flex-row items-center mb-2">
-                <span className="mr-2">Request</span>
+                <span className="mr-2 text-white">Request</span>
                 <img src="/assets/icons/right_arrow_white.svg"></img>
               </button>
             </div>

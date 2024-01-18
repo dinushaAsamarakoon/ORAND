@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div id="about" className="pt-[70px]">
       <div className="w-full bg-[#043873] justify-center sm:grid sm:grid-cols-2 px-2 sm:px-16 md:px-32 flex flex-col items-stretch">
         <div className="flex items-center justify-center">
-          <h1 className="text-5xl text-center font-inter font-bold py-20">
+          <h1 className="text-5xl text-center font-inter font-bold py-20 text-white">
             About Us
           </h1>
         </div>
@@ -42,8 +42,10 @@ const AboutUs = () => {
           id="vision"
           className="flex flex-col items-center bg-[#043873] justify-start px-6 sm:px-10 py-[70px] rounded-lg mb-4 lg:mb-0"
         >
-          <h1 className="text-2xl font-bold font-inter my-3">Vision</h1>
-          <p>
+          <h1 className="text-2xl font-bold font-inter my-3 text-white">
+            Vision
+          </h1>
+          <p className="text-white">
             At XYZ Company, we picture a world in which people and organizations
             can take advantage of the internet's power to realize their
             aspirations and realize their full potential. By offering

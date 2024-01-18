@@ -69,7 +69,7 @@ const Footer: FC = () => {
         </div>
       </div>
       <div className="flex justify-center items-end my-5 text-center">
-        <h1>©2024 ORAND All rights reserved.</h1>
+        <h1 className="text-white">©2024 ORAND All rights reserved.</h1>
       </div>
     </div>
   );
