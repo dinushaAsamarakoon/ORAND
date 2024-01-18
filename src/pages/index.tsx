@@ -23,7 +23,7 @@ export default function Home({ serviceCardDetails }: HomeProps) {
   return (
     <Layout>
       <Intro />
-      <div id="services" className="pt-[70px]">
+      <div id="services" className="sm:grid sm:grid-cols-2 lg:flex lg:flex-col">
         {serviceCardDetails.map((card, index) => (
           <ServiceCard
             key={index}

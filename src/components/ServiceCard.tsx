@@ -11,14 +11,14 @@ type cardData = {
 
 const ServiceCard: FC<cardData> = ({ title, content, image, row, id }) => {
   return (
-    <div id={id} className="pt-[70px]">
-      <div className="w-[70vw] mx-auto bg-[#FFE492] shadow-md overflow-hidden rounded-4xl md:rounded-8xl lg:rounded-6xl ">
-        <div className={`lg:flex ${row} pb-2`}>
-          <div className="w-full lg:w-1/2">
+    <div id={id} className="flex pt-[70px] justify-center">
+      <div className="mx-2 sm:ml-5 md:mx-10 h-full lg:w-[70vw] bg-[#FFE492] shadow-md overflow-hidden rounded-3.5xl md:rounded-8xl lg:rounded-6xl ">
+        <div className={`lg:flex ${row}`}>
+          <div className="sm:col-span-1 lg:w-1/2">
             <img className="h-full w-full" src={image} alt="An image" />
           </div>
           <div className="w-full lg:w-1/2 lg:p-8 px-2 flex-col justify-between mb-10 mt-2 sm:my-10">
-            <div className="tracking-wide text-4xl sm:text-5xl text-[#212529] font-bold font-inter ">
+            <div className="tracking-wide text-2xl sm:text-5xl text-[#212529] font-bold font-inter ">
               {title}
             </div>
             <p className="mb-2 text-[#212529] text-indent[50%]">
@@ -26,7 +26,7 @@ const ServiceCard: FC<cardData> = ({ title, content, image, row, id }) => {
               {content}
             </p>
             <div className="flex flex-wrap">
-              <button className="bg-[#4F9CF9] px-12 py-3 rounded-2xl flex flex-row items-center">
+              <button className="bg-[#4F9CF9] px-12 py-3 rounded-2xl flex flex-row items-center mb-2">
                 <span className="mr-2">Request</span>
                 <img src="/assets/icons/right_arrow_white.svg"></img>
               </button>
