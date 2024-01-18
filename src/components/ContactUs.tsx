@@ -15,11 +15,15 @@ const ContactUs = () => {
         </div>
         <div className="flex h-full  sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Address</h1>
-          <p className="text-xl">Head of Talent Acquisition, North America</p>
+          <p className="text-xl text-white">
+            Head of Talent Acquisition, North America
+          </p>
         </div>
         <div className="flex h-full  sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Email Address</h1>
-          <p className="text-xl">Head of Talent Acquisition, North America</p>
+          <p className="text-xl text-white">
+            Head of Talent Acquisition, North America
+          </p>
         </div>
       </div>
       {/* <div className="flex h-full flex-col items-center bg-[#043873] shadow-2xl">
