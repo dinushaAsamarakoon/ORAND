@@ -8,16 +8,16 @@ const ContactUs = () => {
           Talk To Us
         </h1>
       </div>
-      <div>
-        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] shadow-2xl rounded-lg flex-col px-10 justify-center my-3">
+      <div className="mx-2 md:mx-28 lg:mx-52">
+        <div className="flex h-full  sm:h-[15vh] shadow-2xl rounded-lg flex-col px-10 justify-center my-3">
           <h1 className="text-2xl text-black">Contact No.</h1>
           <p className="text-black text-xl">48463113135131351</p>
         </div>
-        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
+        <div className="flex h-full  sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Address</h1>
           <p className="text-xl">Head of Talent Acquisition, North America</p>
         </div>
-        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
+        <div className="flex h-full  sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Email Address</h1>
           <p className="text-xl">Head of Talent Acquisition, North America</p>
         </div>

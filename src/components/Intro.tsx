@@ -14,8 +14,8 @@ const Intro = () => {
         }}
       >
         <div className="grid sm:grid-cols-2">
-          <div className="flex flex-col justify-center items-center mx-auto sm:mx-5 lg:mx-20 my-auto">
-            <h1 className="flex flex-wrap my-3 text-3xl sm:text-5xl">
+          <div className="flex flex-col justify-center items-start mx-auto sm:mx-5 lg:mx-20 my-auto">
+            <h1 className="flex flex-wrap my-3 text-3xl sm:text-5xl font-inter">
               MAKE YOUR IMAGINATION REAL
             </h1>
             <p className="my-3">

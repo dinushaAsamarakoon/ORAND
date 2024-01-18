@@ -11,10 +11,10 @@ type cardData = {
 
 const ServiceCard: FC<cardData> = ({ title, content, image, row, id }) => {
   return (
-    <div id={id} className="pt-[70px]">
-      <div className="mx-2 sm:w-[70vw] sm:mx-auto bg-[#FFE492] shadow-md overflow-hidden rounded-3.5xl md:rounded-8xl lg:rounded-6xl ">
+    <div id={id} className="flex pt-[70px] justify-center">
+      <div className="mx-2 sm:ml-5 md:mx-10 h-full lg:w-[70vw] bg-[#FFE492] shadow-md overflow-hidden rounded-3.5xl md:rounded-8xl lg:rounded-6xl ">
         <div className={`lg:flex ${row}`}>
-          <div className="w-full lg:w-1/2">
+          <div className="sm:col-span-1 lg:w-1/2">
             <img className="h-full w-full" src={image} alt="An image" />
           </div>
           <div className="w-full lg:w-1/2 lg:p-8 px-2 flex-col justify-between mb-10 mt-2 sm:my-10">

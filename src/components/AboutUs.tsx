@@ -3,13 +3,18 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div id="about" className="pt-[70px]">
-      <div className="w-full bg-[#043873] sm:grid sm:grid-cols-2 sm:px-32 flex flex-col items-stretch">
-        <h1 className="text-5xl text-center font-inter font-bold py-20">
-          About Us
-        </h1>
-        <img className="pb-20" src="/assets/images/aboutus_section.png"></img>
+      <div className="w-full bg-[#043873] justify-center sm:grid sm:grid-cols-2 px-2 sm:px-16 md:px-32 flex flex-col items-stretch">
+        <div className="flex items-center justify-center">
+          <h1 className="text-5xl text-center font-inter font-bold py-20">
+            About Us
+          </h1>
+        </div>
+        <img
+          className="sm:py-20 pb-20"
+          src="/assets/images/aboutus_section.png"
+        ></img>
       </div>
-      <div className="flex lg:grid lg:grid-cols-3 flex-wrap my-20 sm:mx-10 mx-2">
+      <div className="flex lg:grid lg:grid-cols-3 flex-wrap mt-20 sm:mx-10 mx-2">
         <div
           id="who_are_we"
           className="flex flex-col items-center justify-start px-6 sm:px-10 py-[70px] lg:pb-5 rounded-lg border-solid border-2 border-[#FFE492] lg:mx-6 mb-4 lg:mb-0"

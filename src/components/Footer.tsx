@@ -6,20 +6,20 @@ import Image from "next/image";
 // Define the Footer component
 const Footer: FC = () => {
   return (
-    <div className="w-full sm:h-[50vh] bg-[#043873] flex items-center justify-between flex-col">
-      <div className="flex-wrap my-auto w-full">
+    <div className="w-full sm:h-[50vh] bg-[#043873] flex items-center justify-between flex-col ">
+      <div className="flex mx-auto w-full h-full items-center justify-center">
         <div className="text-white flex-wrap items-start justify-between px-4 grid sm:grid-cols-5 lg:mx-28">
           <div className="col-span-2 flex-col mx-auto sm:mr-28 justify-center py-24 sm:py-0">
             <div className="flex flex-row items-center justify-center">
               <Image
                 src="/assets/icons/logo.png"
-                height={70}
+                height={30}
                 width={28}
                 alt="logo"
               ></Image>
               <h1 className="text-4xl ml-2">ORAND</h1>
             </div>
-            <p className="flex text-center">
+            <p className="flex pt-10 text-center">
               ORAND was created for making your works easy by creating your
               website, creating.
             </p>
