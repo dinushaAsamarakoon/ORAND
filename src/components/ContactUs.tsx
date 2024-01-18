@@ -4,23 +4,25 @@ const ContactUs = () => {
   return (
     <div className="w-full pt-[70px]" id="contact">
       <div className="flex justify-center my-16">
-        <h1 className="text-black font-inter font-bold text-5xl">Talk To Us</h1>
+        <h1 className="text-black font-inter font-bold text-5xl text-center">
+          Talk To Us
+        </h1>
       </div>
       <div>
-        <div className="flex mx-52 h-[15vh] shadow-2xl rounded-lg flex-col px-10 justify-center my-3">
+        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] shadow-2xl rounded-lg flex-col px-10 justify-center my-3">
           <h1 className="text-2xl text-black">Contact No.</h1>
           <p className="text-black text-xl">48463113135131351</p>
         </div>
-        <div className="flex mx-52 h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
+        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Address</h1>
           <p className="text-xl">Head of Talent Acquisition, North America</p>
         </div>
-        <div className="flex mx-52 h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
+        <div className="flex h-full mx-2 sm:mx-52 sm:h-[15vh] bg-[#4F9CF9] shadow-2xl rounded-lg flex-col px-10 justify-center  my-3">
           <h1 className="text-2xl text-[#043873] ">Email Address</h1>
           <p className="text-xl">Head of Talent Acquisition, North America</p>
         </div>
       </div>
-      <div className="flex h-full flex-col items-center bg-[#043873] shadow-2xl">
+      {/* <div className="flex h-full flex-col items-center bg-[#043873] shadow-2xl">
         <div className="flex justify-between py-32 flex-col items-center h-[70vh]">
           <h1 className="font-inter font-bold text-5xl">Try ORAND today</h1>
           <p>Get started for free.</p>
@@ -33,7 +35,7 @@ const ContactUs = () => {
           </div>
           <p>On a big team? Contact Sales</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

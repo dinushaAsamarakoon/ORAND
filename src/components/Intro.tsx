@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div
-      className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0"
+      className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0 px-2"
       id="home"
     >
       <div
@@ -15,7 +15,7 @@ const Intro = () => {
       >
         <div className="grid sm:grid-cols-2">
           <div className="flex flex-col justify-center items-center mx-auto sm:mx-5 lg:mx-20 my-auto">
-            <h1 className="flex flex-wrap my-3 text-5xl">
+            <h1 className="flex flex-wrap my-3 text-3xl sm:text-5xl">
               MAKE YOUR IMAGINATION REAL
             </h1>
             <p className="my-3">
