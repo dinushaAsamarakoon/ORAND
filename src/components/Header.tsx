@@ -41,8 +41,8 @@ const Header: FC = () => {
         !headerVisible ? "top-[-80px]" : "top-0"
       }`}
     >
-      <nav className="flex items-center justify-between flex-row bg-[#043873] p-6 shadow-2xl shadow-black">
-        <div className="flex flex-row items-center flex-shrink-0 text-white mr-6 md:ml-20 lg:ml-36">
+      <nav className="flex items-center justify-between flex-row bg-[#043873] py-6 sm:pr-6 sm:px-0 px-2 shadow-2xl shadow-black">
+        <div className="flex flex-row items-center flex-shrink-0 text-white mr-6 lg:ml-20 sm:ml-2">
           <Image
             src="/assets/icons/logo.png"
             height={70}

@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div
-      className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0 px-2"
+      className="flex w-full h-full pb-10 justify-center bg-[#043873] pt-44 top-0"
       id="home"
     >
       <div
