@@ -33,7 +33,7 @@ const Footer: FC = () => {
               <Link href="#services">Services</Link>
             </div>
             <div className="mt-4">
-              <Link href="#aobut">About Us</Link>
+              <Link href="#about">About Us</Link>
             </div>
             <div className="mt-4">
               <Link href="#contact">Contact Us</Link>
